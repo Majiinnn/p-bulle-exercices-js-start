@@ -43,10 +43,7 @@ export function canExecuteFastAttack(knightIsAwake) {
  * @returns {boolean} Whether or not you can spy on someone.
  */
 export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
-  if (knightIsAwake || archerIsAwake || prisonerIsAwake)
-  {return false}
-  else
-    {return true}
+  return knightIsAwake || archerIsAwake || prisonerIsAwake;
 }
 
 /**
