@@ -10,12 +10,12 @@
  * @returns {Visitor} the visitor that was created
  */
 export function createVisitor(name, age, ticketId) {
-	const Visitor = {
+	const visitor = {
 		name: name,
 		age: age,
 		ticketId: ticketId,
 	};
-	return Visitor;
+	return visitor;
 }
 
 /**
