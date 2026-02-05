@@ -35,7 +35,7 @@ export function determineOddEvenCards(stack, type) {
       if (card % 2 === 0) count++;
     } else {
       if (card % 2 !== 0) count++;
-    }
+    } 
   }
   return count;
 }
